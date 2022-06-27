@@ -1,0 +1,14 @@
+{
+  "posts": [
+    { "id": 1, "title": "FriendsShip", "body": "Hello, my friends!" },
+    { "id": 2, "title": "Warrior", "body": "Hello, my Warrior!" },
+    { "id": 3, "title": "Paladin", "body": "Hello, my Paladin!" },
+    { "id": 4, "title": "Mage", "body": "Hello, my Mage!" },
+    { "id": 5, "title": "Druid", "body": "Hello, my Druid!" },
+    { "id": 6, "title": "WarLock", "body": "Hello, my Warlock!" },
+    { "id": 7, "title": "Rogue", "body": "Hello, my Rogue!" }
+  ],
+  "about": {
+    "title": "Инфа о нас"
+  }
+}
