@@ -5,7 +5,6 @@ import { MyPostProp } from '../../interfaces/posts';
 import { NextPageContext } from '../../node_modules/next/dist/shared/lib/utils';
 
 interface PostPropsPage {
-  posts: MyPostProp[];
 }
 
 export default function Posts({ posts: serverPost }): PostPropsPage {

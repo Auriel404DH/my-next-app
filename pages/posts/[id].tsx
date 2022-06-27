@@ -6,7 +6,7 @@ import { MyPostProp } from '../../interfaces/posts';
 import { NextPageContext } from '../../node_modules/next/dist/shared/lib/utils';
 
 interface PostPageProps {
-  post?: MyPostProp | any;
+
 }
 
 export default function Posts({ post: serverPost }): PostPageProps {
@@ -27,11 +27,9 @@ export default function Posts({ post: serverPost }): PostPageProps {
 
   if (!post) {
     return (
-      <h1>
-        <MainLayout>
-          <p>Loading...</p>
-        </MainLayout>
-      </h1>
+      <MainLayout>
+        <p>Loading...</p>
+      </MainLayout>
     );
   }
 
